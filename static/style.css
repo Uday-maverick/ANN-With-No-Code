@@ -1,0 +1,55 @@
+/* Custom styles for the ANN Competition platform */
+
+/* Main header styling */
+.main-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+/* Metric card enhancements */
+.metric-card {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background: linear-gradient(180deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Button enhancements */
+.stButton>button {
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    gap: 8px;
+    padding: 10px 20px;
+}
+
+/* Progress bar styling */
+.stProgress > div > div > div > div {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
